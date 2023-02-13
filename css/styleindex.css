@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+.feature-one img{
+    width: 100%;
+}
+
+.feature-two h2{
+    color: yellow;
+    border-bottom: 5px solid aqua;
+    margin-top: 0;
+}
+
+.picture img{
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.picture{
+    display: flex;
+    margin: 10px 0;
+}
+
+.container .row h1{
+    text-align: center;
+    margin-top: 0;
+    color: aqua;
+}
+
+.container .row img{
+    width: 550px;
+}
+.container .row h3{
+    position: relative;
+    margin: -40px 0px 0px 150px;
+    color: white;
+}
+
+.container .row h2{
+    text-align: center;
+    margin-top: 0;
+    color: aqua;
+}
+
+.table thead  tr{
+    color: green;
+}
+.table tbody{
+    color: rgb(198, 198, 75);
+}
+
+.container-fluid .row div p{
+    text-align: center;
+    margin: 10px 0;
+}
+.container-fluid .row div h5{
+    text-align: center;
+}
+
+body .container-fluid:nth-child(3){
+    background-color: darkcyan;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
