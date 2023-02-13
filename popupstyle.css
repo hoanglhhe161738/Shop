@@ -15,7 +15,7 @@ body {
        
    .button {
     border: 3px solid #111;
-    adding: 10px;
+    padding: 10px;
     color: #111;
     text-decoration: none;
    }
@@ -28,12 +28,14 @@ body {
     top: 0;
     left: 0;
     background: rgba(0,0,0,0.6);
+   }
+
+   .popup-hidden{
     display: none;
    }
    
    #xmas-popup .popup-content{
     width: 600px;
-    height: 600px;
     background: #bbb;
     margin: 100px auto;
     position: relative;
@@ -42,8 +44,8 @@ body {
    
    .close {
     position: absolute;
-
-    right: 5px;
+    bottom: 5%;
+    right: 50%;
     border-radius: 50%;
     background: #222;
     border: 3px solid #fff;
@@ -55,9 +57,13 @@ body {
     text-align: center;
    }
        
-   .popup:target {
-     display: block;
+   /* .popup:target {
+     display: none;
+   } */
+   #xmas-popup:target{
+    display: none;
    }
+  
    img{
     width: 100%;
    }
